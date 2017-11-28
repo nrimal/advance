@@ -1,0 +1,14 @@
+Started GET "/" for 127.0.0.1 at 2017-11-27 21:05:06 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.5ms)
+Completed 200 OK in 162ms (Views: 8.7ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-11-27 21:05:31 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 654ms (Views: 651.3ms)
+
+
