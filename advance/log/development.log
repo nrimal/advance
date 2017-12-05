@@ -117,6 +117,7 @@ Processing by SurveyController#show as HTML
 Completed 200 OK in 22ms (Views: 18.7ms)
 
 
+<<<<<<< HEAD
 Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:47:35 -0500
 Processing by SurveyController#show as HTML
   Rendering survey/show.html.erb within layouts/application
@@ -462,5 +463,130 @@ Processing by SurveyController#result as HTML
   Rendering survey/result.html.erb within layouts/application
   Rendered survey/result.html.erb within layouts/application (0.9ms)
 Completed 200 OK in 39ms (Views: 36.8ms)
+=======
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:27:16 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 2010ms (Views: 1330.7ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:47:23 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1218ms (Views: 585.1ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:51:17 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 1299ms (Views: 669.4ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:52:45 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 390ms (Views: 269.5ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:56:00 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 542ms (Views: 344.6ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 21:06:18 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 588ms (Views: 462.6ms)
+>>>>>>> refs/remotes/origin/master
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 21:17:03 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 354ms (Views: 208.0ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 21:23:39 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 340ms (Views: 192.2ms)
+
+
+Started GET "/survey/result?Question1%5B%5D=on&Question2%5B%5D=on&Question3%5B%5D=on&Question4%5B%5D=on&Question5%5B%5D=on&Question6%5B%5D=on&Question7%5B%5D=on&Question8%5B%5D=on&Question9%5B%5D=on&Question10%5B%5D=on&Submit=submit" for 127.0.0.1 at 2017-12-04 21:27:59 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["on"], "Question2"=>["on"], "Question3"=>["on"], "Question4"=>["on"], "Question5"=>["on"], "Question6"=>["on"], "Question7"=>["on"], "Question8"=>["on"], "Question9"=>["on"], "Question10"=>["on"], "Submit"=>"submit"}
+  Rendering survey/result.html.erb within layouts/application
+  Rendered survey/result.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 348ms (Views: 149.7ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 21:28:25 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 18ms (Views: 16.0ms)
+
+
+Started GET "/survey/result?Question1%5B%5D=1&Question2%5B%5D=3&Question3%5B%5D=3&Question4%5B%5D=3&Question5%5B%5D=3&Question6%5B%5D=3&Question7%5B%5D=3&Question8%5B%5D=3&Question9%5B%5D=3&Question10%5B%5D=3&Submit=submit" for 127.0.0.1 at 2017-12-04 21:28:41 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["1"], "Question2"=>["3"], "Question3"=>["3"], "Question4"=>["3"], "Question5"=>["3"], "Question6"=>["3"], "Question7"=>["3"], "Question8"=>["3"], "Question9"=>["3"], "Question10"=>["3"], "Submit"=>"submit"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (String can't be coerced into Integer):
+  
+app/controllers/survey_controller.rb:10:in `+'
+app/controllers/survey_controller.rb:10:in `block in result'
+app/controllers/survey_controller.rb:9:in `each'
+app/controllers/survey_controller.rb:9:in `reduce'
+app/controllers/survey_controller.rb:9:in `result'
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 21:29:43 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 32.1ms)
+
+
+Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=2&Question3%5B%5D=2&Question5%5B%5D=3&Question6%5B%5D=3&Question7%5B%5D=2&Question10%5B%5D=2&Submit=submit" for 127.0.0.1 at 2017-12-04 21:29:56 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["2"], "Question2"=>["2"], "Question3"=>["2"], "Question5"=>["3"], "Question6"=>["3"], "Question7"=>["2"], "Question10"=>["2"], "Submit"=>"submit"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (no implicit conversion of nil into Array):
+  
+app/controllers/survey_controller.rb:7:in `+'
+app/controllers/survey_controller.rb:7:in `result'
+Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=2&Question3%5B%5D=2&Question4%5B%5D=2&Question5%5B%5D=3&Question6%5B%5D=3&Question7%5B%5D=2&Question8%5B%5D=2&Question9%5B%5D=2&Question10%5B%5D=2&Submit=submit" for 127.0.0.1 at 2017-12-04 21:30:29 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["2"], "Question2"=>["2"], "Question3"=>["2"], "Question4"=>["2"], "Question5"=>["3"], "Question6"=>["3"], "Question7"=>["2"], "Question8"=>["2"], "Question9"=>["2"], "Question10"=>["2"], "Submit"=>"submit"}
+Completed 500 Internal Server Error in 1ms
+
+
+  
+TypeError (String can't be coerced into Integer):
+  
+app/controllers/survey_controller.rb:10:in `+'
+app/controllers/survey_controller.rb:10:in `block in result'
+app/controllers/survey_controller.rb:9:in `each'
+app/controllers/survey_controller.rb:9:in `reduce'
+app/controllers/survey_controller.rb:9:in `result'
+Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=2&Question3%5B%5D=2&Question4%5B%5D=2&Question5%5B%5D=3&Question6%5B%5D=3&Question7%5B%5D=2&Question8%5B%5D=2&Question9%5B%5D=2&Question10%5B%5D=2&Submit=submit" for 127.0.0.1 at 2017-12-04 21:30:43 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["2"], "Question2"=>["2"], "Question3"=>["2"], "Question4"=>["2"], "Question5"=>["3"], "Question6"=>["3"], "Question7"=>["2"], "Question8"=>["2"], "Question9"=>["2"], "Question10"=>["2"], "Submit"=>"submit"}
+  Rendering survey/result.html.erb within layouts/application
+  Rendered survey/result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 27ms (Views: 25.2ms)
 
 
