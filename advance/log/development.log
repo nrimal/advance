@@ -117,3 +117,45 @@ Processing by SurveyController#show as HTML
 Completed 200 OK in 22ms (Views: 18.7ms)
 
 
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:27:16 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 2010ms (Views: 1330.7ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:47:23 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1218ms (Views: 585.1ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:51:17 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 1299ms (Views: 669.4ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:52:45 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 390ms (Views: 269.5ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 20:56:00 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 542ms (Views: 344.6ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 21:06:18 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 588ms (Views: 462.6ms)
+
+
