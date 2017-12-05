@@ -1,14 +1,24 @@
 <h1>Survey#show</h1>
 <p>Find me in app/views/survey/show.html.erb</p>
 
-<form>
-        <label>
-        Question 1
-        </label>
+<form action="/survey/result" method="get">
+    <label>
+    Question 1
+    </label>
         <div class="question-box">
-            <label><input type="radio" name="test">Option 1!</label><br>
-            <label><input type="radio" name="test">Option 2.</label><br>
-            <label><input type="radio" name="test">Otion 3.</label>
+            <input type="radio" name="Question1[]" value="1" /> Option 1
+            <input type="radio" name="Question1[]" value="2" /> Option 2
+            <input type="radio" name="Question1[]" value="3" /> Option 3
         </div>
+    <label>
+    Question 2
+    </label>
+    <div class="question-box">
+            <input type="radio" name="Question2[]" value="1" /> Option 1
+            <input type="radio" name="Question2[]" value="2" /> Option 2
+            <input type="radio" name="Question2[]" value="3" /> Option 3
+    </div>
+    <input name="commit" type="submit" value="Create Person" class="test12" />
+
 </form>
 
