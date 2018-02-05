@@ -590,25 +590,69 @@ Processing by SurveyController#result as HTML
 Completed 200 OK in 27ms (Views: 25.2ms)
 
 
-Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 21:33:04 -0500
+Started GET "/" for 127.0.0.1 at 2018-02-05 18:18:54 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.2ms)
+Completed 200 OK in 199ms (Views: 9.4ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 18:19:00 -0500
 Processing by SurveyController#show as HTML
   Rendering survey/show.html.erb within layouts/application
-  Rendered survey/show.html.erb within layouts/application (5.6ms)
-Completed 200 OK in 1654ms (Views: 889.8ms)
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 201ms (Views: 198.4ms)
 
 
-Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=0&Question3%5B%5D=2&Question4%5B%5D=2&Question5%5B%5D=2&Question6%5B%5D=1&Question7%5B%5D=3&Question8%5B%5D=3&Question9%5B%5D=1&Question10%5B%5D=0&Submit=submit" for 127.0.0.1 at 2017-12-04 21:33:41 -0500
+Started GET "/survey/result?Question1%5B%5D=3&Question2%5B%5D=3&Question3%5B%5D=1&Question4%5B%5D=3&Question5%5B%5D=1&Question6%5B%5D=3&Question7%5B%5D=1&Question8%5B%5D=0&Question9%5B%5D=1&Question10%5B%5D=2&Submit=submit" for 127.0.0.1 at 2018-02-05 18:19:24 -0500
 Processing by SurveyController#result as HTML
-  Parameters: {"Question1"=>["2"], "Question2"=>["0"], "Question3"=>["2"], "Question4"=>["2"], "Question5"=>["2"], "Question6"=>["1"], "Question7"=>["3"], "Question8"=>["3"], "Question9"=>["1"], "Question10"=>["0"], "Submit"=>"submit"}
+  Parameters: {"Question1"=>["3"], "Question2"=>["3"], "Question3"=>["1"], "Question4"=>["3"], "Question5"=>["1"], "Question6"=>["3"], "Question7"=>["1"], "Question8"=>["0"], "Question9"=>["1"], "Question10"=>["2"], "Submit"=>"submit"}
   Rendering survey/result.html.erb within layouts/application
-  Rendered survey/result.html.erb within layouts/application (0.0ms)
-Completed 200 OK in 373ms (Views: 317.3ms)
+  Rendered survey/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 36.4ms)
 
 
-Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 18:23:24 -0500
+Started GET "/survey/result?Question1%5B%5D=3&Question2%5B%5D=3&Question3%5B%5D=1&Question4%5B%5D=3&Question5%5B%5D=1&Question6%5B%5D=3&Question7%5B%5D=1&Question8%5B%5D=0&Question9%5B%5D=1&Question10%5B%5D=2&Submit=submit" for 127.0.0.1 at 2018-02-05 18:20:07 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["3"], "Question2"=>["3"], "Question3"=>["1"], "Question4"=>["3"], "Question5"=>["1"], "Question6"=>["3"], "Question7"=>["1"], "Question8"=>["0"], "Question9"=>["1"], "Question10"=>["2"], "Submit"=>"submit"}
+  Rendering survey/result.html.erb within layouts/application
+  Rendered survey/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 26.8ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 18:35:25 -0500
 Processing by SurveyController#show as HTML
   Rendering survey/show.html.erb within layouts/application
-  Rendered survey/show.html.erb within layouts/application (31.0ms)
-Completed 200 OK in 1950ms (Views: 1015.0ms)
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 29ms (Views: 25.8ms)
+
+
+Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=3&Question3%5B%5D=1&Question4%5B%5D=3&Question5%5B%5D=2&Question6%5B%5D=3&Question7%5B%5D=1&Question8%5B%5D=3&Question9%5B%5D=2&Question10%5B%5D=1&Submit=submit" for 127.0.0.1 at 2018-02-05 18:35:41 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["2"], "Question2"=>["3"], "Question3"=>["1"], "Question4"=>["3"], "Question5"=>["2"], "Question6"=>["3"], "Question7"=>["1"], "Question8"=>["3"], "Question9"=>["2"], "Question10"=>["1"], "Submit"=>"submit"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NoMethodError (undefined method `to_i' for ["1"]:Array
+Did you mean?  to_s
+               to_a
+               to_h):
+  
+app/controllers/survey_controller.rb:19:in `result'
+Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=3&Question3%5B%5D=1&Question4%5B%5D=3&Question5%5B%5D=2&Question6%5B%5D=3&Question7%5B%5D=1&Question8%5B%5D=3&Question9%5B%5D=2&Question10%5B%5D=1&Submit=submit" for 127.0.0.1 at 2018-02-05 18:36:25 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["2"], "Question2"=>["3"], "Question3"=>["1"], "Question4"=>["3"], "Question5"=>["2"], "Question6"=>["3"], "Question7"=>["1"], "Question8"=>["3"], "Question9"=>["2"], "Question10"=>["1"], "Submit"=>"submit"}
+  Rendering survey/result.html.erb within layouts/application
+  Rendered survey/result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 24.4ms)
+
+
+Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=3&Question3%5B%5D=1&Question4%5B%5D=3&Question5%5B%5D=2&Question6%5B%5D=3&Question7%5B%5D=1&Question8%5B%5D=3&Question9%5B%5D=2&Question10%5B%5D=1&Submit=submit" for 127.0.0.1 at 2018-02-05 18:37:03 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["2"], "Question2"=>["3"], "Question3"=>["1"], "Question4"=>["3"], "Question5"=>["2"], "Question6"=>["3"], "Question7"=>["1"], "Question8"=>["3"], "Question9"=>["2"], "Question10"=>["1"], "Submit"=>"submit"}
+  Rendering survey/result.html.erb within layouts/application
+  Rendered survey/result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 20.5ms)
 
 
