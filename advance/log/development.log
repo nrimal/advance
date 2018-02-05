@@ -590,3 +590,25 @@ Processing by SurveyController#result as HTML
 Completed 200 OK in 27ms (Views: 25.2ms)
 
 
+Started GET "/survey/show" for 127.0.0.1 at 2017-12-04 21:33:04 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 1654ms (Views: 889.8ms)
+
+
+Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=0&Question3%5B%5D=2&Question4%5B%5D=2&Question5%5B%5D=2&Question6%5B%5D=1&Question7%5B%5D=3&Question8%5B%5D=3&Question9%5B%5D=1&Question10%5B%5D=0&Submit=submit" for 127.0.0.1 at 2017-12-04 21:33:41 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["2"], "Question2"=>["0"], "Question3"=>["2"], "Question4"=>["2"], "Question5"=>["2"], "Question6"=>["1"], "Question7"=>["3"], "Question8"=>["3"], "Question9"=>["1"], "Question10"=>["0"], "Submit"=>"submit"}
+  Rendering survey/result.html.erb within layouts/application
+  Rendered survey/result.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 373ms (Views: 317.3ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 18:23:24 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 1950ms (Views: 1015.0ms)
+
+
