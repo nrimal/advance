@@ -1,7 +1,11 @@
-<h1>Survey#show</h1>
-<p>Find me in app/views/survey/show.html.erb</p>
 
-<form action="/survey/result" method="get">
+<div class="headers">
+<h1> 
+    Survey Questions
+</h1>
+</div>
+
+<form class="form-group survey" action="/survey/result" method="get">
 
   <h4>Over the last two weeks, how often have you been bothered by any of the
     following problems?</h4>
@@ -126,7 +130,7 @@
           <label><input type="radio" name="Question10[]" value=3>Extremely difficult</label>
         </div>
 
-    <input name="Submit" type="submit" value="submit" class="test12" />
+    <input class="btn btn-dark" name="Submit" type="submit" value="submit" class="test12" />
 </form>
 
    

@@ -656,3 +656,229 @@ Processing by SurveyController#result as HTML
 Completed 200 OK in 24ms (Views: 20.5ms)
 
 
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:08:02 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 418ms (Views: 258.9ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:11:56 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 85ms (Views: 75.6ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:12:26 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 33ms (Views: 30.1ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:13:42 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 39.4ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:13:55 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 37ms (Views: 34.0ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:13:57 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 23.4ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:14:49 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 36.0ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:16:54 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 38ms (Views: 35.3ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:17:52 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 29.5ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:18:11 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 35.1ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:18:25 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 31.7ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:18:44 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 45ms (Views: 42.1ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:18:51 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 26ms (Views: 22.6ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:20:02 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 29ms (Views: 25.9ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:21:24 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 25.4ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:22:37 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 24.8ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:22:40 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 21.1ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-05 19:30:29 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 318ms
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.):
+    4:     <title>Advance</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3098618992529275265_70128622564460'
+Started GET "/" for 127.0.0.1 at 2018-02-19 18:04:55 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.6ms)
+Completed 200 OK in 234ms (Views: 9.6ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-19 18:05:03 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 2992ms (Views: 2988.5ms)
+
+
+Started GET "/survey/" for 127.0.0.1 at 2018-02-19 18:05:11 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/survey"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-19 18:05:16 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 47ms (Views: 43.2ms)
+
+
+Started GET "/survey/result?Question1%5B%5D=2&Question2%5B%5D=3&Question3%5B%5D=1&Question4%5B%5D=3&Question5%5B%5D=1&Question6%5B%5D=3&Question7%5B%5D=1&Question8%5B%5D=2&Question9%5B%5D=1&Question10%5B%5D=1&Submit=submit" for 127.0.0.1 at 2018-02-19 18:05:38 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["2"], "Question2"=>["3"], "Question3"=>["1"], "Question4"=>["3"], "Question5"=>["1"], "Question6"=>["3"], "Question7"=>["1"], "Question8"=>["2"], "Question9"=>["1"], "Question10"=>["1"], "Submit"=>"submit"}
+  Rendering survey/result.html.erb within layouts/application
+  Rendered survey/result.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 42ms (Views: 38.4ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-19 18:09:24 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1074ms (Views: 1070.7ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-19 18:09:36 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 488ms (Views: 485.2ms)
+
+
+Started GET "/survey/result?Question1%5B%5D=1&Question2%5B%5D=1&Question3%5B%5D=1&Question4%5B%5D=2&Question5%5B%5D=2&Question6%5B%5D=2&Question7%5B%5D=1&Question8%5B%5D=2&Question9%5B%5D=3&Question10%5B%5D=2&Submit=submit" for 127.0.0.1 at 2018-02-19 18:18:21 -0500
+Processing by SurveyController#result as HTML
+  Parameters: {"Question1"=>["1"], "Question2"=>["1"], "Question3"=>["1"], "Question4"=>["2"], "Question5"=>["2"], "Question6"=>["2"], "Question7"=>["1"], "Question8"=>["2"], "Question9"=>["3"], "Question10"=>["2"], "Submit"=>"submit"}
+  Rendering survey/result.html.erb within layouts/application
+  Rendered survey/result.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1114ms (Views: 1109.8ms)
+
+
+Started GET "/survey/show" for 127.0.0.1 at 2018-02-19 19:09:20 -0500
+Processing by SurveyController#show as HTML
+  Rendering survey/show.html.erb within layouts/application
+  Rendered survey/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1062ms (Views: 1059.4ms)
+
+
