@@ -15,13 +15,19 @@ class SurveyController < ApplicationController
     @general = params[:Question1] + params[:Question3] + params[:Question4] + params[:Question7] + params[:Question8]
 
     @general = @general.reduce(0) {|sum, element|
-      sum += element.to_i
+      if(defined? element.to_i)
+        sum += element.to_i
+      end
     }
     @foodSeverity = @foodSeverity.reduce(0) {|sum, element|
-    sum += element.to_i
+      if(defined? element.to_i)
+        sum += element.to_i
+      end
     }
     @sucidalDepress = @sucidalDepress.reduce(0) {|sum, element|
-      sum += element.to_i
+      if(defined? element.to_i)
+        sum += element.to_i
+      end
     }
     @severity = (params[:Question10])[0].to_i
   end
