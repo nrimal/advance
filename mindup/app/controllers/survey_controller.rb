@@ -34,7 +34,7 @@ class SurveyController < ApplicationController
       end
     }
     if not (params[:Question10].nil?)
-      @severity = (params[:Question8])[0].to_i
+      @severity = (params[:Question10])[0].to_i
     end
   end
 
