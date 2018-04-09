@@ -10,6 +10,26 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
- *= require_self
+ @import "bootstrap";
  */
+ body{
+     background-color: rgb(155, 23, 20);
+     color: white;
+ }
+ form.survey{
+    position: absolute;
+    left: 35px;
+}
+div.headers{
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+div.question-box label{
+    margin-left: 20px;
+}
