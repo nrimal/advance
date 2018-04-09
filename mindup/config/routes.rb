@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  devise_for :users
+  get 'home/show'
+
+  root to: 'home#show'
+
   get '/survey/show' => 'survey#show'
   get '/survey/result' => 'survey#result'
   get '/anxiety_survey/result' => 'anxiety_survey#result'
