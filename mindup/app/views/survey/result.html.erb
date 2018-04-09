@@ -5,6 +5,7 @@
   </head>
   <body>
     <div>
+        <%=@counter=0 %>
       <label>Results</label>
       <p>
       Sucidal Score <%=@sucidalDepress%>
@@ -28,7 +29,7 @@
         <% when 0 %>
         <h2> we reccomend this for none sucidalDepress </h2>
         <% else %>
-        <h2> Please fill out the form correctly! </h2>
+        <% @counter= @counter +1 %>
         <%end%>
 
         <% case @foodSeverity
@@ -41,7 +42,7 @@
         <% when 0 %>
         <h2> we reccomend this for none foodSeverity </h2>
         <% else %>
-        <h2> Please fill out the form correctly! </h2>
+        <% @counter= @counter +1 %>
         <%end%>
         <% case @general
         when 11..15 %>
@@ -53,7 +54,7 @@
         <% when 0 %>
         <h2> we reccomend this for none general </h2>
         <% else %>
-        <h2> Please fill out the form correctly! </h2>
+        <% @counter= @counter +1 %>
         <%end%>
         <% case @severity
             when 3 %>
@@ -65,9 +66,13 @@
         <% when 0 %>
         <h2> we reccomend this for none severity</h2>
         <% else %>
-        <h2> Please fill out the form correctly! </h2>
+        <% @counter= @counter +1 %>
         <%end%>
 
+              <%if @counter>0 %>
+                  <h2> Please fill out the form correctly! </h2>
+              <%end%>
+              
       </div>
     </div>
   </body>
