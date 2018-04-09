@@ -23,12 +23,13 @@
 div.headers{
     width: 100%;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     border-width: 5px;
-    display: flex;
+    border-radius: 50px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: white;
 }
 div.question-box label{
     margin-left: 20px;
